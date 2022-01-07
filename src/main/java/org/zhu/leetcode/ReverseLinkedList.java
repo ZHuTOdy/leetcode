@@ -1,8 +1,10 @@
 package org.zhu.leetcode;
 
+import org.zhu.leetcode.base.ListNode;
+
 /**
  * @ClassName ReverseLinkedList
- * @Description 反转链表
+ * @Description Day 2 反转链表
  * @Author 朱镕杰
  * @Date 2022/1/7 6:16 PM
  **/
@@ -17,16 +19,5 @@ public class ReverseLinkedList {
             cur = next;
         }
         return pre;
-    }
-
-
-    private class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }
